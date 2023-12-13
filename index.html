@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>beauty_zone</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
+      <a href="/"><img src="./images/logo.svg" alt="logo" /></a>
       <ul>
         <li>
-          <a href="#">Про нас</a>
+          <a href="#about_us">Про нас</a>
         </li>
         <li>
-          <a href="#">Чому ми</a>
+          <a href="#why_beaty_zone">Чому ми</a>
         </li>
         <li>
-          <a href="#">Наші процедури</a>
+          <a href="#our_procedures">Наші процедури</a>
         </li>
         <li>
-          <a href="#">Контакти</a>
+          <a href="#contacts">Контакти</a>
         </li>
       </ul>
       <ul>
@@ -43,12 +44,16 @@
     <main>
       <section>
         <h1>
-          <span>Косметологічна клініка</span><span lang="en">beauty zone</span>
+          <span>Косметологічна клініка</span><br /><span lang="en"
+            >beauty<br />zone</span
+          >
         </h1>
-        <button type="button">Замовити дзвінок</button>
+        <button type="button" class="call_request_button">
+          Замовити дзвінок
+        </button>
         <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
       </section>
-      <section>
+      <section id="about_us">
         <h2>Перевтілюйтесь в <span lang="en">beauty zone!</span></h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
@@ -66,7 +71,7 @@
         <img src="./images/face_1.jpg" alt="woman_face_photo" />
         <img src="./images/face_2.jpg" alt="woman_face_photo" />
       </section>
-      <section>
+      <section id="why_beaty_zone">
         <h2>Чому люди <span>обирають нас</span></h2>
         <ul>
           <li>
@@ -100,7 +105,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="our_procedures">
         <h2>Наші процедури</h2>
         <ul>
           <li>
@@ -132,7 +137,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="contacts">
         <h2>Як нас знайти</h2>
         <ul>
           <li>
@@ -189,8 +194,8 @@
                   required=""
                 />
               </div>
-              <button class="contact-section__button button" type="submit">
-                Замовити дзвінок
+              <button class="button" type="submit">
+                Записатись безкоштовно
               </button>
               <p class="form-terms">
                 Натискаючи на кнопку я погоджуюсь з
@@ -205,19 +210,19 @@
     </main>
     <footer>
       <nav>
-        <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
+        <a href="/"><img src="./images/logo.svg" alt="logo" /></a>
         <ul>
           <li>
-            <a href="#">Про нас</a>
+            <a href="#about_us">Про нас</a>
           </li>
           <li>
-            <a href="#">Чому ми</a>
+            <a href="#why_beaty_zone">Чому ми</a>
           </li>
           <li>
-            <a href="#">Наші процедури</a>
+            <a href="#our_procedures">Наші процедури</a>
           </li>
           <li>
-            <a href="#">Контакти</a>
+            <a href="#contacts">Контакти</a>
           </li>
         </ul>
       </nav>

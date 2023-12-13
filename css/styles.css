@@ -1,0 +1,28 @@
+.call_request_button {
+        color: #FFF;
+        background-color: #2B7FFF;
+        border: solid #2B7FFF;
+        border-radius: 32px;
+        cursor: pointer;
+}
+.call_request_button:hover {
+    color: #011C44;
+    background-color: transparent;
+}
+.call_request_button:active {
+    background-color: chartreuse;
+}
+.button {
+        color: #FFF;
+        background-color: #2B7FFF;
+        border: solid #2B7FFF;
+        border-radius: 32px;
+        cursor: pointer;
+}
+.button:hover {
+    color: #011C44;
+    background-color: transparent;
+}
+.button:active {
+    background-color: aqua;
+}
